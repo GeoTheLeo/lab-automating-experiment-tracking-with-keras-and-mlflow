@@ -1,0 +1,69 @@
+# ==========================
+# Python cache
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================
+# Virtual environments
+# ==========================
+venv/
+.env/
+.envrc/
+.venv/
+
+# ==========================
+# MLflow artifacts
+# ==========================
+mlruns/
+mlflow.db
+
+# ==========================
+# Jupyter checkpoints
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Environment variables / secrets
+# ==========================
+.env
+*.env
+
+# ==========================
+# OS files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# IDE / Editor settings
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Model files (optional safety)
+# ==========================
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# ==========================
+# Large datasets
+# ==========================
+data/*.csv
+data/*.parquet
+data/*.zip
+
+# ==========================
+# Keep images for documentation
+# ==========================
+# (Do NOT ignore PNGs)
